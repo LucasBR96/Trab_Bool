@@ -30,5 +30,7 @@ F | F | F | V  | F     | F
 Also, it classifies the formula as:
 
 Redundant -> all inputs return true
+
 Contradictory -> all inputs return false
+
 Possible -> At least one input returns true
