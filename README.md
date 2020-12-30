@@ -7,20 +7,28 @@ programming.
 
 Example:
 
->>> ~a -> (b & c)
+ ~a -> (b & c)
 
 a | b | c | ~a | b & c | ~a -> (b & c)
+
 V | V | V | F  | V     | V
+
 V | V | F | F  | F     | V
+
 V | F | V | F  | F     | V
+
 V | F | F | F  | F     | V
+
 F | V | V | V  | V     | V
+
 F | V | F | V  | F     | F
+
 F | F | V | V  | F     | F
+
 F | F | F | V  | F     | F
 
 Also, it classifies the formula as:
 
-    Redundant -> all inputs return true
-    Contradictory -> all inputs return false
-    Possible -> At least one input returns true
+Redundant -> all inputs return true
+Contradictory -> all inputs return false
+Possible -> At least one input returns true
